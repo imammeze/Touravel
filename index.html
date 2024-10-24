@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet" />
+    <!-- Tailwind CSS -->
+    <link rel="stylesheet" href="./src/tailwind.css" />
+    <title>Touravel</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="py-9 -px-4">
+      <div class="container mx-auto">
+        <div class="flex justify-between items-center">
+          <h1 class="text-primary font-bold text-[45px]">
+            Tour<span class="text-secondary text-[30px]">avel.</span>
+          </h1>
+          <div>
+            <div>
+              <ul class="flex items-center gap-14">
+                <li class="text-primary font-medium font-raleway text-xl">
+                  <a href="">Home</a>
+                </li>
+                <li class="text-secondary font-medium font-raleway text-xl">
+                  <a href="">Service</a>
+                </li>
+                <li class="text-secondary font-medium font-raleway text-xl">
+                  <a href="">Pricing</a>
+                </li>
+                <li class="text-secondary font-medium font-raleway text-xl">
+                  <a href="">About Us</a>
+                </li>
+                <li class="text-secondary font-medium font-raleway text-xl">
+                  <a href="">Contact</a>
+                </li>
+                <button
+                  class="bg-secondary font-bold text-white p-6 rounded-full">
+                  Member Area
+                </button>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="max-h-[700px]">
+      <div class="container mx-auto py-10">
+        <div class="grid grid-cols-12 gap-10">
+          <div class="col-span-6">
+            <div class="flex flex-col gap-4">
+              <h1 class="text-primary text-[45px] font-bold leading-tight">
+                Make Your Trip Memorable Book With Tour
+                <span class="text-secondary text-[30px]">avel</span>
+              </h1>
+              <p class="text-gray-400 text-base max-w-[370px] text-justify">
+                We have partners with several destinations that you might feel
+                at home there, we will guide you with our best service.
+              </p>
+              <div class="flex gap-12">
+                <div class="flex gap-2">
+                  <img src="./public/assets/icons/ceklist.svg" alt="" />
+                  <h6 class="font-bold">Plan your trip</h6>
+                </div>
+                <div class="flex gap-2">
+                  <img src="./public/assets/icons/ceklist.svg" alt="" />
+                  <h6 class="font-bold">Plan your trip</h6>
+                </div>
+              </div>
+            </div>
+            <div class="pt-12 flex flex-col text-center">
+              <div class="mx-auto">
+                <button
+                  class="bg-primary text-white font-bold py-3 px-6 rounded-full relative top-4">
+                  Get the schedule
+                </button>
+              </div>
+              <div
+                class="flex bg-gray-200 rounded-full py-6 px-8 gap-8 items-center">
+                <div class="flex gap-3">
+                  <img src="./public/assets/icons/maps.svg" alt="" />
+                  <div class="flex flex-col gap-2">
+                    <div class="flex gap-2">
+                      <p>Location</p>
+                      <img src="./public/assets/icons/arrow-down.svg" alt="" />
+                    </div>
+                    <h6 class="py-2 px-4 font-bold border rounded-md bg-white">
+                      Jakarta, Indonesia
+                    </h6>
+                  </div>
+                </div>
+                <div class="flex gap-3">
+                  <img src="./public/assets/icons/schedule.svg" alt="" />
+                  <div class="flex flex-col gap-2">
+                    <div class="flex gap-2">
+                      <p>Date</p>
+                      <img src="./public/assets/icons/arrow-down.svg" alt="" />
+                    </div>
+                    <h6 class="py-2 px-4 font-bold border rounded-md bg-white">
+                      Jakarta, Indonesia
+                    </h6>
+                  </div>
+                </div>
+                <div class="bg-secondary rounded-full p-5">
+                  <img src="./public/assets/icons/search.svg" alt="" />
+                </div>
+              </div>
+              <p class="text-gray-400 py-2 text-xs">
+                Popular search : Kuta beach, Raja Ampat Beach, Borobudur temple
+              </p>
+            </div>
+          </div>
+          <div class="col-span-6 mx-auto">
+            <img
+              class="w-full relative left-[30px]"
+              src="./public/assets/images/hero.png"
+              alt="" />
+            <img
+              class="relative -z-10 top-[-570px] left-[350px]"
+              src="./public/assets/images/map-ornamen.png"
+              alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Values Section -->
+    <section>
+      <div class="container mx-auto px-8">
+        <div class="grid grid-cols-12">
+          <div class="col-span-12">
+            <div class="flex flex-col gap-4 text-center">
+              <h6 class="text-secondary font-bold text-xl">WHAT WE SERVE</h6>
+              <h1 class="text-4xl font-bold">Top Values For You</h1>
+              <p>The best service that will be with you every time</p>
+            </div>
+            <div class="flex text-center mt-32">
+              <div
+                class="bg-primary hover:bg-secondary hover:h-[350px] w-1/4 gap-4 p-10 rounded-tl-3xl">
+                <div class="flex flex-col gap-4">
+                  <img
+                    class="w-[75px] mx-auto"
+                    src="./public/assets/icons/earth.svg"
+                    alt="" />
+                  <h6 class="text-white font-bold text-3xl">Lot of Choises</h6>
+                  <p class="text-white text-base">
+                    Total of more than 450 destinations in various countries in
+                    the world become partners with us
+                  </p>
+                </div>
+              </div>
+
+              <div class="bg-primary hover:bg-secondary w-1/4 gap-4 p-10">
+                <div class="flex flex-col gap-4">
+                  <img
+                    class="w-[75px] mx-auto"
+                    src="./public/assets/icons/people-audience.svg"
+                    alt="" />
+                  <h6 class="text-white font-bold text-3xl">Tour Guide</h6>
+                  <p class="text-white text-base">
+                    There are 3 guides for each destination in the place you
+                    visit
+                  </p>
+                </div>
+              </div>
+              <div class="bg-primary hover:bg-secondary w-1/4 gap-4 p-10">
+                <div class="flex flex-col gap-4">
+                  <img
+                    class="w-[75px] mx-auto"
+                    src="./public/assets/icons/cart.svg"
+                    alt="" />
+                  <h6 class="text-white font-bold text-3xl">Easy Booking</h6>
+                  <p class="text-white text-base">
+                    We provide all services online which can be accessed easily
+                    through our website
+                  </p>
+                </div>
+              </div>
+              <div
+                class="bg-primary hover:bg-secondary w-1/4 gap-4 p-10 rounded-tr-3xl">
+                <div class="flex flex-col gap-4">
+                  <img
+                    class="w-[75px] mx-auto"
+                    src="./public/assets/icons/hotel.svg"
+                    alt="" />
+                  <h6 class="text-white font-bold text-3xl">Luxury Hotel</h6>
+                  <p class="text-white text-base">
+                    We also provide lodging near the destination where you are
+                    visiting.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Destination Section -->
+    <section>
+      <div class="container mx-auto py-32">
+        <div class="grid grid-cols-12">
+          <div class="col-span-12">
+            <div class="flex justify-between items-center">
+              <div class="flex flex-col gap-4">
+                <h6 class="text-secondary font-bold text-xl">
+                  TOP DESTINATION
+                </h6>
+                <h1 class="text-4xl font-bold">Explore Top Destination</h1>
+              </div>
+              <div class="flex gap-4">
+                <img src="./public/assets/icons/arrow-left.svg" alt="" />
+                <img src="./public/assets/icons/arrow-right.svg" alt="" />
+              </div>
+            </div>
+            <div class="flex pt-16 gap-8">
+              <div>
+                <img src="./public/assets/images/kuta-beach.png" alt="" />
+                <div
+                  class="flex flex-col gap-3 relative w-[275px] top-[-85px] mx-auto p-3 rounded-md backdrop-blur-sm bg-white/40 border border-white shadow-md">
+                  <div class="flex justify-between items-center">
+                    <h6
+                      class="bg-secondary text-white font-bold text-sm py-2 px-3 rounded-md text-center">
+                      Beach
+                    </h6>
+                    <p
+                      class="bg-primary text-white font-bold text-xs px-3 py-4 rounded-full">
+                      $300
+                    </p>
+                  </div>
+                  <h1 class="text-2xl font-bold">Kuta, Indonesia</h1>
+                  <div class="flex gap-3 items-center">
+                    <img src="./public/assets/icons/star.svg" alt="" />
+                    <p class="text-base font-bold">4.8</p>
+                    <p class="text-xs font-bold">(1.6K Reviewer)</p>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <img src="./public/assets/images/bangkok.png" alt="" />
+                <div
+                  class="flex flex-col gap-3 relative w-[275px] top-[-85px] mx-auto p-3 rounded-md backdrop-blur-sm bg-white/40 border border-white shadow-md">
+                  <div class="flex justify-between items-center">
+                    <h6
+                      class="bg-gray-500 text-white font-bold text-sm py-2 px-3 rounded-md text-center">
+                      Building
+                    </h6>
+                    <p
+                      class="bg-primary text-white font-bold text-xs px-3 py-4 rounded-full">
+                      $300
+                    </p>
+                  </div>
+                  <h1 class="text-2xl font-bold">Bangkok, Thailand</h1>
+                  <div class="flex gap-3 items-center">
+                    <img src="./public/assets/icons/star.svg" alt="" />
+                    <p class="text-base font-bold">4.7</p>
+                    <p class="text-xs font-bold">(1.3K Reviewer)</p>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <img src="./public/assets/images/borobudur.png" alt="" />
+                <div
+                  class="flex flex-col gap-3 relative w-[275px] top-[-85px] mx-auto p-3 rounded-md backdrop-blur-sm bg-white/40 border border-white shadow-md">
+                  <div class="flex justify-between items-center">
+                    <h6
+                      class="bg-gray-500 text-white font-bold text-sm py-2 px-3 rounded-md text-center">
+                      Building
+                    </h6>
+                    <p
+                      class="bg-primary text-white font-bold text-xs px-3 py-4 rounded-full">
+                      $300
+                    </p>
+                  </div>
+                  <h1 class="text-xl font-bold">Yogyakarta, Indonesia</h1>
+                  <div class="flex gap-3 items-center">
+                    <img src="./public/assets/icons/star.svg" alt="" />
+                    <p class="text-base font-bold">5.0</p>
+                    <p class="text-xs font-bold">(1.9K Reviewer)</p>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <img src="./public/assets/images/swiss.png" alt="" />
+                <div
+                  class="flex flex-col gap-3 relative w-[275px] top-[-85px] mx-auto p-3 rounded-md backdrop-blur-sm bg-white/40 border border-white shadow-md">
+                  <div class="flex justify-between items-center">
+                    <h6
+                      class="bg-secondary text-white font-bold text-sm py-2 px-3 rounded-md text-center">
+                      Beach
+                    </h6>
+                    <p
+                      class="bg-primary text-white font-bold text-xs px-3 py-4 rounded-full">
+                      $300
+                    </p>
+                  </div>
+                  <h1 class="text-2xl font-bold">Zermatt, Swiss</h1>
+                  <div class="flex gap-3 items-center">
+                    <img src="./public/assets/icons/star.svg" alt="" />
+                    <p class="text-base font-bold">4.8</p>
+                    <p class="text-xs font-bold">(1.6K Reviewer)</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Special offer Section  -->
+    <section>
+      <div class="container mx-auto">
+        <div class="grid grid-cols-12">
+          <div class="col-span-12">
+            <div
+              class="flex justify-between items-center bg-primary py-10 px-32 rounded-lg">
+              <div class="flex flex-col gap-2">
+                <h1 class="font-extrabold text-4xl text-center text-white">
+                  SPECIAL OFFER
+                </h1>
+                <p
+                  class="text-xl font-semibold bg-semiPrimary p-2 rounded-md text-center text-white">
+                  Family Weeked Package
+                </p>
+                <p class="text-white text-xl font-semibold text-center">
+                  Off up to 30%
+                </p>
+              </div>
+              <div>
+                <h1
+                  class="bg-secondary text-white py-4 px-6 font-semibold rounded-full">
+                  BOOK NOW
+                </h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Performance Section -->
+    <section>
+      <div class="container mx-auto pt-32">
+        <div class="grid grid-cols-12 items-center">
+          <div class="col-span-6">
+            <div>
+              <img
+                class="max-w-[500px]"
+                src="./public/assets/images/people.png"
+                alt="" />
+            </div>
+          </div>
+          <div class="col-span-5 ml-[100px]">
+            <div class="flex flex-col gap-4">
+              <h6 class="text-secondary font-semibold text-xl">
+                OUR PERFORMANCE
+              </h6>
+              <h1 class="text-4xl font-bold">
+                Most people are satisfied with our service
+              </h1>
+              <p class="text-base">
+                We always provide the best service to customers, we will direct
+                you from ordering tickets to the journey
+              </p>
+            </div>
+            <div class="flex text-center gap-16 pt-10">
+              <div>
+                <h1 class="text-secondary text-3xl font-extrabold">20</h1>
+                <p class="font-semibold max-w-[100px]">Years Experience</p>
+              </div>
+              <div>
+                <h1 class="text-secondary text-3xl font-extrabold">300++</h1>
+                <p class="font-semibold max-w-[100px]">
+                  Destination Collaboration
+                </p>
+              </div>
+              <div>
+                <h1 class="text-secondary text-3xl font-extrabold">2k++</h1>
+                <p class="font-semibold max-w-[100px]">Customers Happy</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimoni Section -->
+    <section>
+      <div class="container mx-auto pt-32">
+        <div class="grid grid-cols-12 items-center">
+          <div class="col-span-6">
+            <div class="flex flex-col gap-4">
+              <h6 class="text-secondary font-semibold text-xl">
+                WHAT THEY SAID ?
+              </h6>
+              <h1 class="text-4xl font-bold max-w-[500px]">
+                What customers say about their experience with us
+              </h1>
+              <p class="text-base max-w-[500px]">
+                They say what they feel, most of them say they are very
+                satisfied, especially satisfied because they are always guided
+                and directed to between destinations so that they are not
+                confused, and also the provision of comfortable lodging does not
+                have to pay a lot to get it all
+              </p>
+            </div>
+          </div>
+          <div class="col-span-5">
+            <img src="./public/assets/images/testimoni.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Register Section -->
+    <section>
+      <div class="container mx-auto pt-32">
+        <div class="grid grid-cols-12">
+          <div class="col-span-12">
+            <div
+              class="flex justify-between items-center bg-secondary py-8 px-16 rounded-lg">
+              <div class="flex flex-col gap-3">
+                <h1 class="text-4xl font-bold">
+                  ARE YOU NEW MEMBER FOR THIS TRIP ?
+                </h1>
+                <h6 class="text-xl">Let's register now and get cashback</h6>
+                <div>
+                  <button
+                    class="bg-coklat text-white font-bold font-raleway text-2xl py-4 px-8 rounded-xl border border-black shadow-md">
+                    UP TO 20%
+                  </button>
+                </div>
+              </div>
+              <button
+                class="bg-primary text-2xl font-bold text-white py-4 px-8 rounded-full">
+                REGISTER
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <section>
+      <div class="container mx-auto pt-32">
+        <div class="grid grid-cols-12">
+          <div class="col-span-12">
+            <div class="flex justify-between gap-16 w-full">
+              <div class="flex flex-col gap-8 w-1/3">
+                <h1 class="text-primary font-bold text-[45px]">
+                  Tour<span class="text-secondary text-[30px]">avel.</span>
+                </h1>
+                <span class="font-raleway text-2xl"
+                  >The best service to customers is our top priority in building
+                  a business</span
+                >
+                <div class="flex gap-8">
+                  <img src="public/assets/icons/ig.svg" alt="" />
+                  <img src="public/assets/icons/fb.svg" alt="" />
+                  <img src="public/assets/icons/twitter.svg" alt="" />
+                </div>
+                <div class="flex items-center">
+                  <img src="public/assets/icons/copyright.svg" alt="" />
+                  <p class="text-sm">
+                    Copyright 2021 All right reserved | Built by Mardha Mardiya
+                  </p>
+                </div>
+              </div>
+              <div class="flex justify-between gap-16 w-1/3">
+                <div class="flex gap-8 flex-col">
+                  <h1 class="text-3xl font-bold">About</h1>
+                  <p class="font-raleway text-base">About</p>
+                  <p class="font-raleway text-base">Features</p>
+                  <p class="font-raleway text-base">News</p>
+                  <p class="font-raleway text-base">Menu</p>
+                </div>
+                <div class="flex gap-8 flex-col">
+                  <h1 class="text-3xl font-bold">Company</h1>
+                  <p class="font-raleway text-base">Why Touravel ?</p>
+                  <p class="font-raleway text-base">Partners with us</p>
+                  <p class="font-raleway text-base">FAQ</p>
+                  <p class="font-raleway text-base">Blogs</p>
+                </div>
+                <div class="flex gap-8 flex-col">
+                  <h1 class="text-3xl font-bold">Support</h1>
+                  <p class="font-raleway text-base">Account</p>
+                  <p class="font-raleway text-base">Support center</p>
+                  <p class="font-raleway text-base">Feedback</p>
+                  <p class="font-raleway text-base">Contact us</p>
+                  <p class="font-raleway text-base">Accessbility</p>
+                </div>
+              </div>
+              <div class="flex flex-col w-1/3">
+                <h1 class="text-3xl font-bold">Get in touch</h1>
+                <p class="font-raleway text-base">Questions or Feedback</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
